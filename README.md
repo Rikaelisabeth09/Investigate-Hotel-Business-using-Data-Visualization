@@ -95,13 +95,93 @@ Monthly Bookings:
 ![Impact Analysis of Stay Duration on Hotel Bookings](https://github.com/Rikaelisabeth09/Investigate-Hotel-Business-using-Data-Visualization/blob/main/Impact%20Analysis%20of%20Stay%20Duration%20.png)
 
 Insight:
-- **Higher Volatility in City Hotels**: The city hotel cancellation rate is generally higher and more volatile compared to the resort hotel, especially for stay durations under 10 nights. This indicates that guests at city hotels frequently change or cancel their bookings within short stay periods.
-- **Significant Increase Beyond 10 Nights**: For city hotels, the cancellation rate starts to increase significantly once the stay duration exceeds 10 nights. This suggests that longer stays at city hotels are more prone to cancellations, potentially due to changes in travel plans or unforeseen circumstances affecting the longer duration.
-- **Stability in Resort Hotels**: In contrast, the resort hotel cancellation rate remains relatively stable until the stay duration exceeds 16 nights, where it then increases more sharply. This stability indicates that guests at resort hotels are generally more committed to their bookings, particularly for shorterstays.
-- **Divergent Booking Patterns**: These divergent patterns suggest that guests staying at city hotels tend to be more flexible in adjusting their travel plans, especially for shorter stays. On the other hand, resort hotel guests appear to be more committed to their bookings, particularly for shorter durations, reflecting a more planned and stable travel itinerary.
+The distinct patterns of hotel booking cancellations between city hotels and resort hotels are quite intriguing. The data reveals that:
+1.   The city hotel cancellation rate is generally higher and more volatile compared to the resort hotel, especially for stay durations under 10 nights.
+2.   However, the city hotel cancellation rate starts to increase significantly once the stay duration exceeds 10 nights.
+3.   In contrast, the resort hotel cancellation rate remains relatively stable until the 16+ night stays, where it then increases more sharply.
+
+These divergent patterns suggest that guests staying at city hotels tend to be more flexible in adjusting their travel plans, particularly for longer durations. On the other hand, resort hotel guests appear to be more committed to their bookings, especially for shorter stay periods.
+
 
 ### 3. Impact Analysis of Lead Time on Hotel Bookings 
 ![Impact Analysis of Lead Time on Hotel Bookings](https://github.com/Rikaelisabeth09/Investigate-Hotel-Business-using-Data-Visualization/blob/main//Impact%20Analysis%20Of%20Lead%20Time%20On%20Hotel%20Bookings%20Cancellation%20Rates.png)
 
+Insight:
+-   `City Hotels`: Higher cancellation rates, increasing with longer lead times, peaking at 0.79 for bookings over 12 months in advance.
+-   `Resort Hotels`: Lower and more stable cancellation rates, with a maximum of 0.47 for bookings over 12 months in advance.
 
+## Business Recommendation
+### 1. Monthly Hotel Booking Analysis Based on Hotel Type
+- Marketing and Promotions: City Hotels should focus marketing efforts on the
+summer months to maximize on the peak period, while also creating strategies
+to boost bookings during the off-season (e.g., special offers or events). Resort
+Hotels can benefit from targeting the summer vacation crowd but should also
+look into stabilizing demand during the non-peak periods.
+- Resource Allocation: Understanding these trends allows both City and Resort
+Hotels to allocate resources, such as staffing and inventory, more effectively to
+handle peak seasons and optimize operations during low seasons.
+- Event Planning and Partnerships: City Hotels can leverage events and
+conferences to drive bookings, especially during peak months. Resort Hotels
+might benefit from partnerships with travel agencies and vacation planners to
+attract steady bookings throughout the year
 
+### 2. Impact Analysis of Stay Duration on Hotel Bookings 
+- Targeted Marketing Strategies:
+Hotels can use this information to
+develop targeted marketing strategies.
+For city hotels, it may be beneficial to
+offer incentives for longer stays to
+reduce the high cancellation rates. For
+resort hotels, maintaining high
+customer commitment levels through
+personalized experiences and loyalty
+programs could be key.
+- Dynamic Pricing Models:
+Implementing dynamic pricing models
+that consider stay duration and
+cancellation patterns can help optimize
+revenue. City hotels might consider
+stricter cancellation policies for longer
+stays, while resort hotels could
+maintain flexible policies for short
+stays.
+- Operational Adjustments:
+Understanding these patterns can help
+in better forecasting and resource
+allocation. City hotels may need to
+maintain more flexible operations to
+accommodate frequent booking
+changes, while resort hotels can focus
+on providing a consistent guest
+experience for shorter, more stable
+stays.
+
+### 3. Impact Analysis of Lead Time on Hotel Bookings
+
+City Hotels:
+- Flexible Cancellation Policies: Introduce more
+flexible cancellation policies to accommodate the
+higher variability in cancellations. For example,
+offering free cancellation up to a certain number
+of days before the stay.
+-Incentives for Early Bookings: Provide incentives
+for early bookings, such as discounts or
+complimentary services, to encourage guests to
+commit to their bookings.
+- Targeted Marketing: Focus marketing efforts on
+shorter lead time bookings to minimize
+cancellations. Highlight the convenience and
+advantages of last-minute stays.
+
+Resort Hotels:
+- Maintaining Stability: Continue to offer stable and
+attractive packages for short-term bookings,
+ensuring guests remain committed.
+- Long-term Booking Packages: Create special
+packages for long-term bookings to maintain low
+cancellation rates. These could include flexible
+rescheduling options or bundled experiences.
+- Loyalty Programs: Strengthen loyalty programs to
+enhance customer commitment and reduce
+cancellation rates. Offer rewards for repeat
+bookings and long-term stays.
