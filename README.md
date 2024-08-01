@@ -47,3 +47,47 @@ The data used in this project consists of 29 columns and 119390 rows. Data can b
 |total_of_special_requests| Number of special requests made by the customer (e.g. twin bed or high floor)
 |reservation_status| Check-Oucustomer has checked in but already departed
 <br>
+
+## Project Overview
+“It is crucial for a company to constantly analyze its business performance. This time, we will
+delve deeper into the hospitality industry. Our focus is to understand customer behavior in
+booking hotels and its relation to the hotel booking cancellation rate. The insights we find will be
+presented in the form of data visualizations to make them easier to understand and more
+persuasive.”
+
+## Objective
+1. Monthly Hotel Booking Analysis Based on Hotel Type
+2. Impact Analysis of Stay Duration on Hotel Bookings Cancellation Rates
+3. Impact Analysis of Lead Time on Hotel Bookings Cancellation Rate
+
+
+## Data Prepocessing
+- Handling missing values
+1. 'agent`' and '`children`' Columns: Missing values are replaced with 0. This suggests that in these cases, no
+`agent` or `children` information was originally provided in the dataset.
+2. `city`' Column: Missing values are filled with 'Unknown'. This approach ensures that records without `city` information can still be included in the analysis, albeit labeled as 'Unknown'.
+3. The '`company`' column is removed because more than 90% of the '`company`' column's values were missing. This high rate of missing data makes the column impractical for meaningful analysis or predictions. By removing it, the dataset is simplified, focusing on columns that contain more complete and informative data.
+- Replace Values
+ 1. Utilize cancel_mapping andrepeat_mapping dictionaries to map numerical values (0 and 1) to descriptive categories ('not canceled'/'canceled' and 'first time'/'repeat') in 'is_canceled' and 'is_repeated_guest' columns.
+ 2. Replacement of undefined values in 'meal', 'market_segment' , and 'distribution_channel' columns with 'Others'
+The 'meal' column is replaced with 'Others' for 'Undefined' values. The 'market_segment' column is replaced with 'Others' for 'Undefined' values. The 'distribution_channel' column is replaced with 'Others' for 'Undefined' values.
+
+- Drop Values
+1. There are 180 data records where all guest categories (children, adults, and babies) are zero. A new DataFrame df_copy_clean is created excluding these records, ensuring valid booking data with at least one guest specified 
+
+**For the detail kindly to check notebook**
+
+## Data Analysis
+### 1. Monthly Hotel Booking Analysis Based on Hotel Type
+![Monthly Hotel Booking Analysis Based on Hotel Type](https://github.com/Rikaelisabeth09/Investigate-Hotel-Business-using-Data-Visualization/blob/main/Monthly%20Hotel%20Booking%20Analysis%20Based%20On%20Hotel%20Type.png)
+Insight:
+Overall Trends:
+- City Hotels experience a significant increase in bookings from March to August, peaking in August. This indicates that urban areas might be more attractive for travelers during the summer, potentially due to various events, conferences, and tourism activities.
+- Resort Hotels see a peak in bookings during the summer months (June to August) but maintain a more steady booking pattern compared to City Hotels. This suggests that resorts are consistently appealing during the summer vacation period.
+Monthly Bookings:
+- City Hotels have higher booking counts than Resort Hotels throughout the year, indicating a consistently higher demand for city accommodations. This could be due to business travel, urban tourism, and other factors driving people to cities.
+- Resort Hotels have a more consistent month-to-month booking pattern compared to City Hotels, suggesting a stable but lower demand. This consistency could be due to the nature of resort stays, which are often planned vacations.
+
+
+### 2. Impact Analysis of Stay Duration on Hotel Bookings 
+![Monthly Hotel Booking Analysis Based on Hotel Type](https://github.com/Rikaelisabeth09/Investigate-Hotel-Business-using-Data-Visualization/blob/main/Impact%20Analysis%20of%20Stay%20Duration%20.png)
