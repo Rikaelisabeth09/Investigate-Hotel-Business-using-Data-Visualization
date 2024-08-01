@@ -92,4 +92,16 @@ Monthly Bookings:
 
 
 ### 2. Impact Analysis of Stay Duration on Hotel Bookings 
-![Monthly Hotel Booking Analysis Based on Hotel Type](https://github.com/Rikaelisabeth09/Investigate-Hotel-Business-using-Data-Visualization/blob/main/Impact%20Analysis%20of%20Stay%20Duration%20.png)
+![Impact Analysis of Stay Duration on Hotel Bookings](https://github.com/Rikaelisabeth09/Investigate-Hotel-Business-using-Data-Visualization/blob/main/Impact%20Analysis%20of%20Stay%20Duration%20.png)
+
+Insight:
+- **Higher Volatility in City Hotels**: The city hotel cancellation rate is generally higher and more volatile compared to the resort hotel, especially for stay durations under 10 nights. This indicates that guests at city hotels frequently change or cancel their bookings within short stay periods.
+- **Significant Increase Beyond 10 Nights**: For city hotels, the cancellation rate starts to increase significantly once the stay duration exceeds 10 nights. This suggests that longer stays at city hotels are more prone to cancellations, potentially due to changes in travel plans or unforeseen circumstances affecting the longer duration.
+- **Stability in Resort Hotels**: In contrast, the resort hotel cancellation rate remains relatively stable until the stay duration exceeds 16 nights, where it then increases more sharply. This stability indicates that guests at resort hotels are generally more committed to their bookings, particularly for shorterstays.
+- **Divergent Booking Patterns**: These divergent patterns suggest that guests staying at city hotels tend to be more flexible in adjusting their travel plans, especially for shorter stays. On the other hand, resort hotel guests appear to be more committed to their bookings, particularly for shorter durations, reflecting a more planned and stable travel itinerary.
+
+### 3. Impact Analysis of Lead Time on Hotel Bookings 
+![Impact Analysis of Lead Time on Hotel Bookings](https://github.com/Rikaelisabeth09/Investigate-Hotel-Business-using-Data-Visualization/blob/main//Impact%20Analysis%20Of%20Lead%20Time%20On%20Hotel%20Bookings%20Cancellation%20Rates.png)
+
+
+
